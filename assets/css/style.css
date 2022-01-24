@@ -118,3 +118,24 @@
     flex: 1 1 auto;
 }
 /* service end */
+
+/* portfolio start */
+#portfolio{
+    padding: 60px 0;
+}
+
+.portfolio-items{
+    text-align: center;
+}
+
+.portfolio-items img{
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.portfolio-items p{
+    font-style: italic;
+    color: grey;
+}
+/* portfolio end */
