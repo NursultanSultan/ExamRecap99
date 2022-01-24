@@ -139,3 +139,53 @@
     color: grey;
 }
 /* portfolio end */
+
+/* Team start */
+#team{
+    padding: 60px 0;
+}
+
+.team-items{
+    text-align: center;
+}
+
+.team-items .member-image{
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.team-items .member-image img{
+    object-fit: cover;
+    /* width: 14rem;
+    height: 14rem; */
+    width: 100%;
+    border-radius: 50%;
+    
+}
+
+.team-items .member-name h4{
+
+    margin-top: 10px;
+}
+
+.team-items .member-work p{
+    color: gray;
+}
+
+
+
+.team-items .social-links i{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #212529;
+    color: #fff;
+
+    margin-right: 8px;
+}
+
+
+/* team end */
